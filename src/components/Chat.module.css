@@ -1,0 +1,47 @@
+.ChatContainer{
+    display: grid;
+    grid-template-rows: 64px auto min-content;
+    min-height: 0;
+}
+
+.ChatHeader{
+    display: flex;
+    /* flex-direction:column; */
+    /* width: 100%; */
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    border-bottom: 1px solid rgba(93,39,83,.13);
+    justify-content: space-between;
+
+}
+
+.ChatHeaderName{
+    font-weight: 700;
+    padding-top: 2%;
+}
+
+.ChatHeaderDescription{
+    font-weight: 400;
+    color: #606060;
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+.ChannelDetails{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #606060;
+
+}
+
+.DetailsName{
+    margin-right: 7px;
+}
+
+.MessageContainer{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}

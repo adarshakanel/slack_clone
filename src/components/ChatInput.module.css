@@ -1,0 +1,80 @@
+.ChatMessageContainer{
+    /* background-color: gray; */
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    min-height: 0;
+    border: 1.5px solid #8D8D8E;
+    border-radius: 4px;
+}
+
+.ChatMessageInputContainer{
+    border-bottom: 1px solid #d8d8db;
+    /* border-radius: 4px; */
+}
+
+.ChatMessageInputForm{
+    display: flex;
+    height: 35px;
+    align-items: center;
+}
+
+.ChatMessageInput{
+    padding-left: 10px;
+    flex:1;
+    border:none;
+    font-size: 13px;
+}
+
+.ChatMessageInput:focus{
+    outline: none;
+}
+
+.ChatMessageSubmitButton:hover{
+	background: #148567;
+    transition: .2s;
+}
+
+.ChatMessageButton{
+    color: #D9D9D9;
+}
+
+.ChatMessageStylingContainer{
+    background-color: rgb(255,255,255,0.89);
+    justify-content: space-between;
+    display: flex;
+    padding: 2px 4px;
+}
+
+.ChatMessageStylingLeftIcons{
+    display: flex;
+    align-items: center;
+}
+
+.ChatMessageStylingRightIcons{
+    display: flex;
+    align-self: center;
+}
+
+.ChatMessageSubmitButton{
+	border: none;
+    border-radius: 2px;
+    margin-top: 4px;
+    margin-left: 30px;
+    /* background: none; */
+    background: #007a5a;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.ChatIcon{
+    cursor: pointer;
+    padding: 8px;
+    font-size: 18px;
+}

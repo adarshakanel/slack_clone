@@ -1,0 +1,73 @@
+.ChannelMessageContainer{
+    /* background-color: orange; */
+    display: flex;
+    align-items: center;
+    padding: 8px 20px;
+    display: grid;
+    grid-template-columns: 36px auto;
+}
+
+.ChannelMessageContainer:hover{
+    background-color:rgb(243, 243, 243);
+    transition: .5s;
+}
+
+.UserAvatarContainer{
+    width: 36px;
+    height:36px;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.UserAvatarContainer img{
+    width: 100%;
+}
+
+.MessageInfo{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.UserInfo{
+    display: flex;
+    font-weight: 900;
+    line-height: 1.4;
+    align-items: center;
+
+}
+
+.Username{
+    margin-right: 5px;
+    font-size: 16px;
+
+}
+
+.MessageDate{
+    font-weight: 400;
+    color:rgba(97,96,97);
+    font-size: 13px;
+}
+
+.ChatMessage{
+
+}
+
+.CommentHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.CommentOptions{
+    padding-right: 20px;
+}
+
+.EditComment{
+    cursor: pointer;
+}
+
+.DeleteComment{
+    cursor: pointer;
+    margin-left: 4px;
+
+}
